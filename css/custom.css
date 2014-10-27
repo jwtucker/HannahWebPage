@@ -194,4 +194,20 @@ textarea{
     resize:none;
 }
 
+a{
+    color:inherit;
+    text-decoration:inherit;
+}
+
+a:hover{
+    color:inherit;
+    text-decoration:inherit;
+}
+
+a:visited{
+    color:inherit;
+    text-decoration:inherit;
+}
+
+
 
