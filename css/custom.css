@@ -1,214 +1,263 @@
-#navbar{
-    background-color: #4A6EB8;
-    height:45px;
-    vertical-align:middle;
-}
-
-#navbar h2{
-   font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
-   padding:5px 0;
-   margin:0 0;
-   font-weight:700;
-   color:white;
-}
-
-#navbar h2:hover{
-    border-bottom:solid;
-    border-width:2px;
-    border-color:#70C6FF;
-    cursor:pointer;
-}
-
-.navbar-button{
-    display:inline-block;
-    padding-top:0px;
-    display:inline-block;
-    float:left;
-}
-
-
-
-.navbar-dot{
-    vertical-align:middle;
-    background-color:#ffffff;
-    height:10px;
-    width:10px;
-    float:left;
-    margin-top:18px;
-    background-color:#70C6FF;
-    margin:18px 20px;
-}
-
-#navbar img{
-    height:85px;
-    width:85px;
-    float:right;
-}
-
-#jumbotron-background{
-    background-image:url("../img/linedpaper.png");
-}
-
-.jumbotron-text{
-    font-family: 'Permanent Marker', cursive;
-    position:relative;
-    top:10%;
-    left:10%;
-    width:45%;
-    font-size:48px;
-}
-
-.jumbotron-img{
-    position:absolute;
-    top:8%;
-    left:55%;
-    height:92%;
-    max-width:30%;
-}
-
-.chalkboard{
-    background-color:#3B653D;
-    text-align:center;
-    padding:40px;
-    border-top:solid;
-    border-bottom:solid;
-    border-width:6px;
-}
-
-.chalkboard-text{
-    text-shadow: 3px 1px 7px rgba(0, 0, 0, 1);
-    color:#ececec;
-    font-family: 'Candal', sans-serif;
-    width:100%;
-    font-size:50px;
-}
-
-.chalkboard-text em{
-    font-style:normal;
-    color:#ffc0c0;
-}
-
-.neutral-background{
-    /*background-color:#d3d3d3;*/
-    background-image:url("../img/seamless_paper_texture.png");  
-    padding:40px 0;
-}
-
-.neutral-background h2{
-    /*text-shadow: 2px 2px 6px rgba(115, 115, 156, 1);*/
-    font-size:28px;
-    font-family:'Candal',sans-serif;
-    color:#000000;
-    border-color:#555555 !important;
-    border-bottom:solid;
-    padding-bottom:10px;
-}
-
-.neutral-background h3{
-    font-size:22px;
-    font-family:'Candal',sans-serif;
-    color:#555555;
-}
-
-.trans{
-    -webkit-box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    margin:20px 20px;
-    padding:30px 30px;
-    background-color:#70C6FF;
-}
-
-.trans img{
-    -webkit-box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
-}
-
-.orange-bg{
-    background-color:#E68A00;
-    text-align:center;
-    padding:40px 0;
-    border-top:solid;
-    border-bottom:solid;
-    border-width:6px;
-}
-
-.orange-bg-text{
-    text-shadow: 3px 1px 7px rgba(0, 0, 0, 1);
-    color:#ececec;
-    font-family: 'Candal', sans-serif;
-    width:100%;
-    font-size:30px !important;
-}
-
-.orange-bg-text em{
-    font-style:normal;
-    color:#CCFFB2;
-}
-
-
-.biography{
-    position:relative;
-    background-color:#3B653D;
-    text-align:left;
-    padding:10px 50px 30px 50px;
-    border:solid;
-    border-width:6px;
-    margin: 30px 0;
-    width:80%;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-}
-
-.biography h2{
-    text-shadow: 3px 1px 7px rgba(0, 0, 0, 1);
-    color:#ececec;
-    font-family: 'Candal', sans-serif;
-    width:100%;
-    font-size:30px;
-}
-
-.hire-column{
-    background-image:url("../img/trans-bg.png");
-    position:relative;
-    text-align:left;
-    padding: 10px 20px 30px 20px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-}
-
-.hire-column h2{
-    /*text-shadow: 3px 1px 7px rgba(0, 0, 0, 1);*/
-    color:black;
-    font-family: 'Candal', sans-serif;
-    width:100%;
-    font-size:30px;
-}
-
-textarea{
-    resize:none;
-}
-
 a{
     color:inherit;
-    text-decoration:inherit;
+    text-decoration: none;
 }
 
 a:hover{
     color:inherit;
-    text-decoration:inherit;
+    text-decoration:none;
 }
 
 a:visited{
     color:inherit;
-    text-decoration:inherit;
+    text-decoration: none;
 }
 
+body{
+    background-color:black;
+}
 
+.row{
+    padding:0 !important;
+}
+
+/*Tab Styling*/
+
+.tab{
+    position:absolute;
+    width:160px;
+    height:46px;
+    margin:0 46px;
+    top:-45px;
+    display:inline;
+}
+
+.middleTab{
+    -moz-border-radius-topleft: 23px;
+    -webkit-border-top-left-radius: 23px;
+     border-top-left-radius: 23px;
+    -moz-border-radius-topright: 23px;
+    -webkit-border-top-right-radius: 23px;
+    border-top-right-radius: 23px;
+    position:absolute;
+    display:block;
+    width:100%;
+    background-color:red;
+    height:100%;
+    z-index:10;
+}
+
+.middleTab:hover{
+    cursor:pointer;
+    cursor:hand;
+}
+
+.middleTab p{
+    text-align:center;
+    font-size:23px;
+    font-family: 'Montserrat',sans-serif;
+    color:white;
+    text-shadow: 2px 2px 6px rgba(35, 60, 70, 1);
+    padding:7px 0;
+}
+
+.leftTab,.rightTab{
+    position:absolute;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    background-color:black;
+    width: 46px;
+    height: 100%;
+    z-index:5;
+ }
+
+ .leftTab{
+    left:-46px; 
+ }
+
+ .rightTab{
+    right:-46px;
+ }
+
+.leftTabSmall,.rightTabSmall{
+    position:absolute;
+    width:50%;
+    height:23px;
+    background-color:red;
+    z-index:0;
+    bottom:0;
+}
+
+.leftTabSmall{
+    left:-23px;  
+}
+
+.rightTabSmall{
+    right:-23px;
+}
+
+/*Page Styling*/
+
+.pageWrapper{
+    position:relative;
+    top:80px;   
+}
+
+.curved{
+   -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+}
+
+.blue{
+    background-color:#81CFE0;
+    border-color:#52B3D9 !important;
+}
+
+.blueTitle{
+    color:#C5EFF7;
+}
+
+.green{
+    background-color: #26C281;
+    border-color:#26C281;
+}
+
+.orange{
+    background-color: #EB9532;
+    border-color:#EB9532;
+}
+
+/*Header*/
+
+.header{
+    padding:30px 0;
+    text-align: center;
+}
+
+.header h1,h2{
+    color:white;
+    text-shadow: 2px 2px 6px rgba(35, 60, 70, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header img{
+    width: 200px;
+    height: auto;
+   -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-top:15px;
+}
+
+/*Homepage*/
+
+.title{
+    display:block;
+    border-top:solid;
+    border-width: 2px;
+    padding: 0;
+    text-align: right;
+    width:90%;
+    margin:0 auto;
+}
+
+.title h1{
+    display:inline-block;
+    padding:2px;
+    margin: 0;
+    text-shadow: 2px 2px 6px rgba(35, 60, 70, 1);
+    font-size:22px;
+    font-family: 'Montserrat',sans-serif;
+    border-bottom: solid;
+    border-width:2px;
+    border-left:solid;
+}
+
+.content{
+    font-family: 'Raleway',sans-serif;
+    display:block;
+    color:#484848;
+    font-size: 18px;
+    margin:15px auto;
+    margin-bottom: 35px;
+    width:90%;
+}
+
+/*BioPage*/
+
+.bioPage img{
+    height:400px;
+    width: 400px;
+}
+
+/*Contact*/
+
+.contactPage p{
+    font-size:20px;
+    border-bottom: solid;
+    margin-bottom:30px;
+}
+
+.contactPage button{
+    display:block;
+    margin:0 auto;
+}
+
+.formComponent{
+    width:70%;
+    margin:0 auto;
+}
+
+form{
+    color:;
+    margin-top:48px;
+    font-family: 'Montserrat', sans-serif;
+    color:#484848;
+}
+
+form,input,textarea{
+    width:100%;
+    outline:0;
+    background-color: #EB9532;
+}
+
+input,textarea{
+    border-style:none;
+}
+
+::-webkit-input-placeholder {
+   color:#484848;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color:#484848; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color:#484848; 
+}
+
+:-ms-input-placeholder {  
+   color:#484848; 
+}
+
+/*Contact Page*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    direction:rtl;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    direction: rtl;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ but I'm not sure about working */
+    direction: rtl;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    direction: rtl;
+}
+
+@media screen and (max-width:980px) {
+
+}
 
